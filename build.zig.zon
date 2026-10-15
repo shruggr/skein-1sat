@@ -1,0 +1,18 @@
+.{
+    .name = .skein_1sat,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0x1bf47e4351eb26b1,
+    .dependencies = .{
+        .bsvz = .{
+            .url = "git+https://github.com/shruggr/bsvz#309085f02700760637e5257415125f15f61947a7",
+            .hash = "bsvz-0.1.0-wvsL-e5NGAAriF1IwX2HlSIv8JEW7SvxsjVvNPJKzPlp",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+    },
+}
